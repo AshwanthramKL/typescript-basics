@@ -1,6 +1,6 @@
-import React from 'react';
-import './App.css';
-import {Person} from "./component/Person"
+import React from "react";
+import "./App.css";
+import { Country, Person } from "./component/Person";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         age={12}
         isMarried={true}
         friends={["jessica", "jake", "jerry", "jasmine"]}
+        country={Country.India}
       />
     </div>
   );
